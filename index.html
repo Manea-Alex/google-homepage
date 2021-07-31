@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google.com</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="logo"> 
+    <img class="image" src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+   
+   </div>
+   <div class="search">
+    <form>
+       <div class="input"><input type=text class="bar">
+
+       <div class="search-img"><img  src="images/google-search.png" style="height:35px"></img> </div>
+       <div class="microphone"><img  src="images/google-microphone.png" style="height:30px;"></img> </div>
+       <div class="keyboard"><img  src="images/google-keyboard.jpeg" style="height:30px;"></img> </div>
+       </div>
+    </form>
+   </div>
+
+   <div class="buttons">
+       <button class="primu-buton">Căutare Google</button>
+       <button class="al-doilea-buton">Mă simt norocos</button>
+       
+   </div>
+  
+
+   <nav>
+    <ul class="links">
+        <li><a class="link-de-sus" href="#">Gmail</a></li>
+        <li><a class="link-de-sus" href="#">Imagini</a></li>
+        <li><a class="link-de-sus" href="#" id="icon-app"><span class="material-icons">apps</span></a></li>
+        <li><a class="link-de-sus" href="#" id="sign-in" style="margin-left:10px">Conectați-vă</a></li>  
+      </ul>  
+   </nav>
+
+   <div class="text" id="text">
+       Google oferit în:
+       <a href="#" >English</a>
+       <a href="#">magyar</a>
+       <a href="#">Deutsch</a>
+   </div>
+
+   <footer>
+       <div class="sectia-de-sus">România</div>
+       <div class="sectia-de-jos">
+           <a class="link-jos-stanga" href="#">Despre</a>
+           <a class="link-jos-stanga" href="#">Publicitate</a>
+           <a class="link-jos-stanga" href="#">Companii</a>
+           <a class="link-jos-stanga" href="#">Cum funcționează căutarea</a>
+
+           <a class="link-jos-dreapta" href="#">Confidențialitate</a>
+           <a class="link-jos-dreapta" href="#">Termeni</a>
+           <a class="link-jos-dreapta" href="#">Setări</a>
+       </div>
+       <!-- <div class="sectia-de-jos-dreapta">
+        <a class="link-jos-dreapta" href="#">Confidențialitate</a>
+        <a class="link-jos-dreapta" href="#">Termeni</a>
+        <a class="link-jos-dreapta" href="#">Setări</a>
+       </div> -->
+       
+   </footer>
+   
+</body>
+<style>
+    /* Logo plus search bar */
+    
+    .logo{
+        
+       display:flex;
+       justify-content: center;
+       height:400px;
+       align-items: center;
+    }
+    .image{
+        height:125px;
+       
+    }
+  
+    .search
+    {
+        text-align: center;
+        margin-top: -100px;
+    }
+    .bar{
+        border-radius: 25px;
+        padding-left: 59px;
+        border-color:#e0e0e0;
+        padding-right: 110px;
+        outline: none;
+        width:600px;
+        height:40px;
+    }
+    .bar:hover{
+        box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    }
+    /* /////////////////////////// */
+
+
+    /* Navigatia de sus */
+
+
+    .links{
+        list-style-type: none;
+        font-family: google sans-serif;
+        display:flex;
+        align-items: center;
+        flex-direction: row;
+        margin-top: -400px;
+        margin-left: 1490px;
+        font-size: 17px;
+
+       
+    }
+    .link-de-sus{
+        text-decoration: none;
+        color:rgba(0,0,0,0.87);
+        margin-left: 15px;
+        
+        
+    }
+    
+    .link-de-sus:hover{
+        text-decoration: underline;
+        color:rgba(0,0,0,0.87);
+        margin-left: 15px;
+    }
+
+    .apps{
+        margin-top: -227px;
+        margin-left: 1695px;
+        
+    }
+    #sign-in{
+        
+        background-color: #1a73e8;
+        color:#ffff;
+        margin-left: 10px;
+        padding:12px 20px 12px 20px;
+        border-radius: 5px;
+        font: weight 5px;
+    
+     }   
+     #sign-in:hover{
+        
+        color:#ffff;
+        background-color: #2b7de9;
+        text-decoration: none;
+     }
+     
+     .input{
+         position: relative;
+     }
+       
+    
+    .material-icons{
+        font-size: 42px;
+    }
+
+    .buttons{
+        margin-top: 20px;
+        
+        text-align: center;
+        font-size: 25px;
+        height:30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding:10px
+    }
+
+    .primu-buton{
+        font-size:19px;
+         padding:10px 20px 10px 20px;
+         background-color:#f8f9fa;
+         border:1px solid;
+         border-color: #f8f9fa;
+         border-radius: 5px;
+         margin-right: 5px;
+         font-family:Arial, Helvetica, sans-serif;
+
+    }
+    .primu-buton:hover{
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        background-color: #f8f9fa;
+        border: 1px solid #dadce0;
+       
+
+    }
+    .al-doilea-buton{
+         font-size:19px;
+         padding:10px 20px 10px 20px;
+         background-color:#f8f9fa;
+         border:1px solid;
+         border-color: #f8f9fa;
+         border-radius: 5px;
+         margin-left: 5px;
+         font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .al-doilea-buton:hover{
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        background-color: #f8f9fa;
+        border: 1px solid #dadce0;
+    }
+    .search-img{
+        position: absolute;
+        margin-left: 580px;
+        margin-top:-40px;
+    }
+    .microphone
+    {
+        position: absolute;
+        margin-left: 1290px;
+        margin-top:-40px;
+    }
+    .keyboard{
+        position: absolute;
+        margin-left: 1240px;
+        margin-top:-40px;
+    }
+    .text{
+        text-align: center;
+        margin-top: 420px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin-right:10px;
+        margin-top:410px;
+        color:#3c4043;
+    }
+    .sectia-de-sus{
+        padding: 15px 30px;
+        border-bottom: 1px solid #dadce0;
+        font-size: 20px;
+        color: rgba(0,0,0,.54);
+        background-color:#f2f2f2;
+        margin-top:225px;
+    }
+.sectia-de-jos
+{
+        padding: 15px 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border-bottom: 1px solid #dadce0;
+        font-size: 17px;
+        color: rgba(0,0,0,.54);
+        background-color:#f2f2f2;
+        margin-top:1px;
+        text-decoration: none;
+        color:rgba(0,0,0,0.87);
+}
+.link-jos-stanga{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+.link-jos-stanga:hover{
+    text-decoration:underline;
+    
+}
+/* .sectia-de-jos-dreapta{
+    padding: 15px 30px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        border-bottom: 1px solid #dadce0;
+        font-size: 17px;
+        color: rgba(0,0,0,.54);
+        background-color:#f2f2f2;
+        margin-top:1px;
+        text-decoration: none;
+        color:rgba(0,0,0,0.87);
+
+} */
+.link-jos-dreapta{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+.link-jos-dreapta:hover{
+    text-decoration:underline;
+    
+}
+    
+</style>
+</html>
